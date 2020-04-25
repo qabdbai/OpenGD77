@@ -31,6 +31,7 @@
 #include <user_interface/languages/polish.h>
 #include <user_interface/languages/turkish.h>
 #include <user_interface/languages/czech.h>
+#include <user_interface/languages/swedish.h>
 
 /*
  * Note.
