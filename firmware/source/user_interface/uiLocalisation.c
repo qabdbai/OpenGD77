@@ -52,5 +52,7 @@ const stringsTable_t languages[NUM_LANGUAGES]= { 	englishLanguage,
 													finnishLanguage,
 													polishLanguage,
 													turkishLanguage,
-													czechLanguage };
+													czechLanguage,
+												    swedishLanguage };
+
 const stringsTable_t *currentLanguage;
