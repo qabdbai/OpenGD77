@@ -17,7 +17,7 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 /*
- * Translators: SM0XPM
+ * Translators: SA6CCZ
  *
  *
  * Rev: 1
@@ -35,7 +35,7 @@
 const stringsTable_t swedishLanguage =
 {
 .LANGUAGE_NAME 			= "Svenska",
-.language				= "Spr�k",
+.language				= "Språk",
 .menu					= "Meny",
 .credits				= "Krediter",
 .zone					= "Zon",
@@ -43,10 +43,10 @@ const stringsTable_t swedishLanguage =
 .battery				= "Batteri",
 .contacts				= "Kontakter",
 .firmware_info			= "Firmware info",
-.last_heard				= "H�rt sist",
-.options				= "Inst�llningar",
-.display_options		= "Sk�rminst�llning",
-.sound_options			= "Ljudinst�llning", // MaxLen: 16
+.last_heard				= "Hört sist",
+.options				= "Inställningar",
+.display_options		= "Skärminställning",
+.sound_options			= "Ljudinställning", // MaxLen: 16
 .channel_details		= "Kanal detaljer",
 .new_contact			= "Ny Kontakt",
 .new_channel			= "Ny kanal", // MaxLen: 16, leave room for a space and four channel digits after
@@ -57,18 +57,18 @@ const stringsTable_t swedishLanguage =
 .zones					= "Zoner",
 .keypad					= "Tangentbord",
 .ptt					= "PTT",
-.locked					= "L�st",
-.press_blue_plus_star	= "Tryck Bl� + *",
-.to_unlock				= "L�s upp",
-.unlocked				= "Uppl�st",
-.power_off				= "St�nger ner...",
+.locked					= "Låst",
+.press_blue_plus_star	= "Tryck Blå + *",
+.to_unlock				= "Läs upp",
+.unlocked				= "Upplåst",
+.power_off				= "Stänger ner...",
 .error					= "MISSLYCKAS",
 .rx_only				= "Rx bara",
-.out_of_band			= "Utifr�n FRQ",
+.out_of_band			= "Utifrån FRQ",
 .timeout				= "TIDAVBROTT",
-.tg_entry				= "TG intr�de",
-.pc_entry				= "PC intr�de",
-.user_dmr_id			= "Anv�ndare DMR ID",
+.tg_entry				= "TG inträde",
+.pc_entry				= "PC inträde",
+.user_dmr_id			= "Användare DMR ID",
 .contact 				= "Kontakt",
 .accept_call			= "Mottag anrop?",
 .private_call			= "Privat anrop",
@@ -92,7 +92,7 @@ const stringsTable_t swedishLanguage =
 .tg						= "TG",
 .pc						= "PC",
 .ts						= "TS",
-.mode					= "L�ge",
+.mode					= "Läge",
 .colour_code			= "Color Code",
 .n_a					= "N/A",
 .bandwidth				= "Bandbredd",
@@ -104,7 +104,7 @@ const stringsTable_t swedishLanguage =
 .yes					= "Ja",
 .no						= "Nej",
 .rx_group				= "Rx grupp",
-.on						= "P�",
+.on						= "På",
 .timeout_beep			= "Tidavbrott bip",
 .factory_reset			= "Fabriksinst",
 .calibration			= "Justering",
@@ -112,7 +112,7 @@ const stringsTable_t swedishLanguage =
 .beep_volume			= "Pip vol",
 .dmr_mic_gain			= "DMR mic",
 .fm_mic_gain			= "FM mic", // MaxLen: 16 (with ':' + 0..31)
-.key_long				= "Anrop l�ng ",
+.key_long				= "Anrop lång ",
 .key_repeat				= "Anrop rpt",
 .dmr_filter_timeout		= "Filter tid",
 .brightness				= "Ljus styrke",
@@ -121,28 +121,28 @@ const stringsTable_t swedishLanguage =
 .colour_invert			= "F�rg:Omv�nt",
 .colour_normal			= "F�rg:Normal",
 .backlight_timeout		= "Timeout",
-.scan_delay				= "Skanf�rdr�jning",
+.scan_delay				= "Skanfördröjning",
 .YES					= "JA",
 .NO						= "NEJ",
-.DISMISS				= "AVF�RDA",
-.scan_mode				= "Skanl�ge",
+.DISMISS				= "AVFÄRDA",
+.scan_mode				= "Skanläge",
 .hold					= "Hold",
 .pause					= "Pause",
 .empty_list				= "Tom List",
 .delete_contact_qm			= "Ta bort kontakt?",
 .contact_deleted			= "kontakt tagit bort",
-.contact_used				= "Kontakt anv�ndade",
+.contact_used				= "Kontakt användade",
 .in_rx_group				= "i RX grupp",
-.select_tx				= "V�lj TX",
+.select_tx				= "Välj TX",
 .edit_contact				= "Redigera kontakt",
 .delete_contact				= "Ta bort kontakt",
 .group_call				= "Grupp anrop",
 .all_call				= "Alla anrop",
 .tone_scan				= "Tone skan",//// MaxLen: 16
 .cc_scan				= "CC skan",//// MaxLen: 16
-.low_battery			= "L�G BATTERI !!!",//// MaxLen: 16
-.Auto					= "Auto", // MaxLen 16 (with .mode + ':') 
-.manual					= "Manual",  // MaxLen 16 (with .mode + ':') 
+.low_battery			= "LÅG BATTERI !!!",//// MaxLen: 16
+.Auto					= "Auto", // MaxLen 16 (with .mode + ':')
+.manual					= "Manual",  // MaxLen 16 (with .mode + ':')
 .ptt_toggle				= "PTT toggle", // MaxLen 16 (with ':' + .on or .off)
 .private_call_handling			= "Handle PC", // MaxLen 16 (with ':' + .on ot .off)
 .stop					= "Stopp", // Maxlen 16 (with ':' + .scan_mode)
@@ -150,8 +150,8 @@ const stringsTable_t swedishLanguage =
 .two_lines				= "2 linjar", // MaxLen 16 (with ':' + .contact)
 .priority_order				= "Order", // MaxLen 16 (with ':' + 'Cc/DB/TA')
 .dmr_beep				= "DMR pip", // MaxLen 16 (with ':' + .star/.stop/.both/.none)
-.start					= "B�rja", // MaxLen 16 (with ':' + .dmr_beep)
-.both					= "B�da" // MaxLen 16 (with ':' + .dmr_beep)
+.start					= "Börja", // MaxLen 16 (with ':' + .dmr_beep)
+.both					= "Båda" // MaxLen 16 (with ':' + .dmr_beep)
 };
 /********************************************************************
  *
